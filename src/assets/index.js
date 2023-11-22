@@ -5,7 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import close from "./close.svg";
-
+import techMobile from "./techMobile.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -32,6 +32,7 @@ export {
   logo,
   backend,
   creator,
+  techMobile,
   mobile,
   web,
   github,

@@ -20,6 +20,7 @@ import {
   portfolio,
   inProgress,
   threejs,
+  techMobile,
 } from "../assets";
 
 export const navLinks = [
@@ -55,6 +56,8 @@ const services = [
     icon: creator,
   },
 ];
+
+const img = techMobile;
 
 const technologies = [
   {
@@ -189,4 +192,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, img };
