@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
-const Navbar = () => {
+const   Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-15 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            fullstack &nbsp;
-            <span className='sm:block hidden'> | Javascritp developer.</span>
+             JS Full stack dev. &nbsp;
+            <span className='sm:block hidden'> full stack | Javascritp developer.</span>
           </p>
         </Link>
 

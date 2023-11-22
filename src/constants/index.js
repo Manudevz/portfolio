@@ -11,6 +11,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  menu,
   git,
   figma,
   krowdy,
@@ -111,7 +112,7 @@ const experiences = [
     date: "Agosto 2021 - Noviembre 2023",
     points: [
       "Desarrollar y mantener aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
-      "Colaborar con equipos multifuncionales que incluyen diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
+      "Colaborar con equipos multidisciplinarios que incluyen diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
       "Implementar diseño receptivo y garantizar la compatibilidad entre navegadores.",
       "Participar en revisiones de código y brindar retroalimentación constructiva a otros desarrolladores.",
       "Desarollo y trackeo mediante SQL de campañas email marketing.",

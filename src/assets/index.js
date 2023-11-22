@@ -4,7 +4,6 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
-import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
@@ -20,7 +19,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import menu from "./menu.svg";
 import krowdy from "./company/krowdy.png";
 import futuraEmpresa from "./company/futuraEmpresa.png";
 
@@ -36,7 +35,6 @@ export {
   mobile,
   web,
   github,
-  menu,
   close,
   css,
   docker,
@@ -50,6 +48,7 @@ export {
   redux,
   tailwind,
   typescript,
+  menu,
   threejs,
   krowdy,
   futuraEmpresa,
