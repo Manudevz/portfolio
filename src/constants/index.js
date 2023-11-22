@@ -58,6 +58,14 @@ const services = [
 
 const technologies = [
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -82,20 +90,12 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
     name: "Three JS",
     icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
   },
   {
     name: "figma",
