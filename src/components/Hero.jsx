@@ -18,8 +18,8 @@ const Hero = () => {
               <span className='text-[#4da0ee]'>Enmanuel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-           Desarollador web JS. <br className='sm:block hidden' />
-            Estudios y experiencia en multiples <br className='sm:block hidden' />  frameworks y librerias  <br className='sm:block hidden' /> enfocado en el stack MERN y PERN.
+          <span className="lg:text-[30px] text-[22px] block mb-4">¡Hola mundo!</span>  
+          Soy un enamorado de la programación, que fusiona la lógica  <br className='sm:block hidden' /> del código con el arte de la creación digital.
           </p>
         </div>
       </div>
