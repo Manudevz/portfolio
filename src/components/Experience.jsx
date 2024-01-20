@@ -18,9 +18,8 @@ const ExperienceCard = ({ experience }) => {
     <VerticalTimelineElement
       className="box"
       contentStyle={{
-        background: "repeating-conic-gradient(from var(--a), #7E22CE 0%, #7E22CE 0%, transparent 15%, transparent 40%, #7E22CE 50%)",
+        background: "#151030",
         color: "#fff",
-        animation: 'animate 4s linear infinite',
         borderRadius: "20px",
         
       }}
@@ -88,4 +87,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "works");

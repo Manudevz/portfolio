@@ -17,9 +17,8 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
               <span className='text-[#4da0ee]'>Enmanuel</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          <span className="lg:text-[30px] text-[22px] block mb-4">¡Hola mundo!</span>  
-          Soy un enamorado de la programación, que fusiona la lógica  <br className='sm:block hidden' /> del código con el arte de la creación digital.
+          <p className={`${styles.heroSubText} mt-2 text-white-100 w-3/5`}>
+          Desarrollador fullstack con experiencia tanto en el desarrollo de aplicaciones web frontend, como en el diseño y construcción de APIs  y servicios backend.
           </p>
         </div>
       </div>
