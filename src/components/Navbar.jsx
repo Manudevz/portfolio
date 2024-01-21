@@ -33,8 +33,8 @@ const   Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <div className='flex items-center gap-2'>
+      <div className='w-full flex justify-between items-center max-w-7xl mx-auto gap-2'>
+        <div className='flex items-center gap-2 '>
         <a href="https://github.com/Manudevz" target="_blank"><img src={logo} alt='logo' className='w-9 h-15 object-contain' /></a>
         <Link
           to='/'
@@ -44,7 +44,7 @@ const   Navbar = () => {
           }}
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-             Manudevz &nbsp;
+             Manudevz 
           </p>
         </Link>
         </div>

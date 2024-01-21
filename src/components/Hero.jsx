@@ -17,14 +17,14 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
               <span className='text-[#4da0ee]'>Enmanuel Marcano C.</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 w-3/5`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 md:w-4/5 lg:w-3/5`}>
           Desarrollador con experiencia tanto en el desarrollo de aplicaciones web frontend, como en el diseño y construcción de APIs  y servicios backend.
           </p>
         </div>
       </div>
 
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute md:bottom-20 bottom-14 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-2xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
