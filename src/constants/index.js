@@ -166,7 +166,7 @@ const projects = [
 	{
 		name: "PikaNet",
 		description:
-			"Es una aplicación web basada en la poke API que permite a los usuarios explorar una extensa colección de Pokémones, buscar y descubrir detalles de tus favoritos con facilidad.",
+			"Basada en la poke API que permite a los usuarios explorar una extensa colección de Pokémones, buscar y descubrir detalles de tus favoritos con facilidad.",
 		tags: [
 			{
 				name: "ReactTS",
