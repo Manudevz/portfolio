@@ -15,9 +15,8 @@ import {
 	git,
 	figma,
 	krowdy,
-	futuraEmpresa,
 	carrent,
-	portfolio,
+	pokedexss,
 	inProgress,
 	threejs,
 	techMobile,
@@ -129,9 +128,9 @@ const experiences = [
 
 const projects = [
 	{
-		name: "Ventas / web laborum.",
+		name: "Landing Ventas laborum.",
 		description:
-			"Es un proyecto simple, de rapida generación para actualizar la vista anterior, en el cuál se administran las ventas de la web, subido a un bucket de AWS S3.",
+			"Landing page que proporciona información detallada sobre los diversos paquetes disponibles para la publicación de empleos en la bolsa de trabajo de Laborum Perú.",
 		tags: [
 			{
 				name: "HTML",
@@ -139,7 +138,7 @@ const projects = [
 			},
 			{
 				name: "CSS",
-				color: "violet-gradient",
+				color: "red-text-gradient",
 			},
 			{
 				name: "JS",
@@ -152,36 +151,8 @@ const projects = [
 		developed: true,
 	},
 	{
-		name: "PikaNet",
-		description:
-			"Es una aplicación web basada en TypeScript que permite a los usuarios explorar una extensa colección de Pokémon. Con una interfaz fácil de usar, puedes buscar y descubrir detalles sobre tus Pokémon favoritos con facilidad.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "TS",
-				color: "orange-text-gradient",
-			},
-			,
-			{
-				name: "nodejs",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "violet-gradient",
-			},
-		],
-		image: portfolio,
-		source_code_link: "https://pokedex-app-eep3.onrender.com/",
-		developed: true,
-	},
-	{
-		name: "pushes dashboard.",
-		description:
-			"Sitio para manejar los pushes, realizados entre miembros de una comunidad/alianza, en un juego  mmorpg, muy popular llamado travian.",
+		name: "PelisYA.",
+		description: "xxxxxxxxxxxxxxxxxx",
 		tags: [
 			{
 				name: "nextjs",
@@ -191,6 +162,28 @@ const projects = [
 		image: inProgress,
 		source_code_link: "",
 		developed: false,
+	},
+	{
+		name: "PikaNet",
+		description:
+			"Es una aplicación web basada en la poke API que permite a los usuarios explorar una extensa colección de Pokémones, buscar y descubrir detalles de tus favoritos con facilidad.",
+		tags: [
+			{
+				name: "ReactTS",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Nodejs",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Tailwind",
+				color: "red-text-gradient",
+			},
+		],
+		image: pokedexss,
+		source_code_link: "https://pokedex-app-eep3.onrender.com/",
+		developed: true,
 	},
 ];
 

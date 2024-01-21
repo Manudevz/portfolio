@@ -34,21 +34,21 @@ const   Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+        <div className='flex items-center gap-2'>
+        <a href="https://github.com/Manudevz" target="_blank"><img src={logo} alt='logo' className='w-9 h-15 object-contain' /></a>
         <Link
           to='/'
-          className='flex items-center gap-2'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-15 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-             Full stack dev. &nbsp;
+             Manudevz &nbsp;
           </p>
         </Link>
-
-        <ul className='list-none hidden md:flex flex-row gap-10 '>
+        </div>
+        <ul className='list-none hidden md:flex flex-row gap-4 '>
           {navLinks.map((nav) => (
             <li 
               key={nav.id}

@@ -1,9 +1,9 @@
-import logo from "./logo.png";
+import logo from "./githubgh.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import sitioWeb from "./sitio-web.png";
 import close from "./close.svg";
 import techMobile from "./techMobile.png";
 import css from "./tech/css.png";
@@ -24,7 +24,7 @@ import krowdy from "./company/krowdy.png";
 import futuraEmpresa from "./company/futuraEmpresa.png";
 
 import carrent from "./carrent.png";
-import portfolio from "./portfolio.png";
+import pokedexss from "./pokedexss.png";
 import inProgress from "./inProgress.png";
 
 export {
@@ -34,7 +34,7 @@ export {
 	techMobile,
 	mobile,
 	web,
-	github,
+	sitioWeb,
 	close,
 	css,
 	docker,
@@ -52,7 +52,7 @@ export {
 	threejs,
 	krowdy,
 	futuraEmpresa,
-	portfolio,
+	pokedexss,
 	inProgress,
 	carrent,
 };

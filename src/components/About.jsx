@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Durante mi participación en proyectos de desarrollo web utilicé diversas herramientas y lenguajes, logrando la corrección de bugs y mejoras en el desarrollo de nuevas aplicaciones.
+        Durante mi participación en proyectos de desarrollo web he utilizado diversas herramientas y lenguajes, logrando la corrección de bugs y mejoras en el desarrollo de nuevas aplicaciones.
         Busco un ambiente que me desafie para aumentar mi conocimiento y aportar mi talento para lograr los resultados del equipo.
       </motion.p>
     </>

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { sitioWeb } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -19,24 +19,25 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+      style={{position: "relative",}}
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full sm:h-[476px]'
       >
         <div className='relative w-full h-[230px]'>
           <img
           src={image}
           alt='project_image'
-          className='w-full h-full object-cover rounded-2xl'
+          className='w-full h-full object-cover rounded-2xl object-left'
           />
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             {  developed &&    
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                className='bg-white  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               >
               <img
-               src={github}
+               src={sitioWeb}
                alt='source code'
-               className='w-1/2 h-1/2 object-contain'
+               className='w-1/2 h-1/2 object-contain  w-25 h-25 rounded'
                />
             </div>
             }
@@ -48,7 +49,7 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div style={{position: 'absolute', bottom:' 1.2rem'}}  className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -76,7 +77,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Los siguientes proyectos destacan mis habilidades y experiencia a través de ejemplos reales de mi trabajo. 
+          Dale un vistazo a alguno de los siguientes proyectos, en ellos he usado conocimientos en diversas tecnologias. 
         </motion.p>
       </div>
 

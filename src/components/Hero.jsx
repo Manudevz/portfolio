@@ -15,10 +15,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-              <span className='text-[#4da0ee]'>Enmanuel</span>
+              <span className='text-[#4da0ee]'>Enmanuel Marcano C.</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 w-3/5`}>
-          Desarrollador fullstack con experiencia tanto en el desarrollo de aplicaciones web frontend, como en el diseño y construcción de APIs  y servicios backend.
+          Desarrollador con experiencia tanto en el desarrollo de aplicaciones web frontend, como en el diseño y construcción de APIs  y servicios backend.
           </p>
         </div>
       </div>
