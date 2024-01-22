@@ -150,19 +150,19 @@ const projects = [
 			"https://empresas.laborum.pe/?utm_source=laborum&utm_medium=menu&utm_campaign=publica+en+laborum",
 		developed: true,
 	},
-	{
-		name: "PelisYA.",
-		description: "xxxxxxxxxxxxxxxxxx",
-		tags: [
-			{
-				name: "nextjs",
-				color: "orange-text-gradient",
-			},
-		],
-		image: inProgress,
-		source_code_link: "",
-		developed: false,
-	},
+	// {
+	// 	name: "PelisYA.",
+	// 	description: "xxxxxxxxxxxxxxxxxx",
+	// 	tags: [
+	// 		{
+	// 			name: "nextjs",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 	],
+	// 	image: inProgress,
+	// 	source_code_link: "",
+	// 	developed: false,
+	// },
 	{
 		name: "PikaNet",
 		description:

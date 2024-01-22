@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
 
 
-      <div className='absolute md:bottom-20 bottom-14 w-full flex justify-center items-center'>
+      <div className='absolute bottom-20 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-2xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
