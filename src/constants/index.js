@@ -11,13 +11,12 @@ import {
 	tailwind,
 	nodejs,
 	mongodb,
-	menu,
 	git,
 	figma,
 	krowdy,
 	carrent,
 	pokedexss,
-	inProgress,
+	encriptador,
 	threejs,
 	techMobile,
 } from "../assets";
@@ -177,12 +176,33 @@ const projects = [
 				color: "green-text-gradient",
 			},
 			{
-				name: "Tailwind",
+				name: "TailwindCSS",
 				color: "red-text-gradient",
 			},
 		],
 		image: pokedexss,
 		source_code_link: "https://pokedex-app-eep3.onrender.com/",
+		developed: true,
+	},
+	{
+		name: "Encriptador de textos",
+		description: "Permite encriptar y desenciptar textos.",
+		tags: [
+			{
+				name: "HTML",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "JS",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "TailwindCSS",
+				color: "red-text-gradient",
+			},
+		],
+		image: encriptador,
+		source_code_link: "https://manudevz.github.io/encriptador/",
 		developed: true,
 	},
 ];

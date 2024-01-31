@@ -22,6 +22,7 @@ import threejs from "./tech/threejs.svg";
 import menu from "./menu.svg";
 import krowdy from "./company/krowdy.png";
 import futuraEmpresa from "./company/futuraEmpresa.png";
+import encriptador from "./encriptador.png";
 
 import carrent from "./carrent.png";
 import pokedexss from "./pokedexss.png";
@@ -39,6 +40,7 @@ export {
 	css,
 	docker,
 	figma,
+	encriptador,
 	git,
 	html,
 	javascript,
